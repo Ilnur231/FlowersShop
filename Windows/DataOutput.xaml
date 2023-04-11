@@ -47,10 +47,11 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button Grid.Row="2" Name="BackButton" Click="BackButton_Click" Content="Назад" Width="200" Height="35" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold" Margin="100,0,0,0" Background="#FFDA6565"/>
-        <Button Grid.Row="2" Name="NextButton" Click="NextButton_Click" Content="Вперед" Width="200" Height="35" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold" Margin="550,0,0,0" Background="#FFDA6565"/>
+        <Button Grid.Row="2" Name="BackButton" Click="BackButton_Click" Content="Предыдущая" Width="200" Height="35" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold" Margin="100,0,0,0" Background="#FFDA6565"/>
+        <Button Grid.Row="2" Name="NextButton" Click="NextButton_Click" Content="Следующая " Width="200" Height="35" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold" Margin="550,0,0,0" Background="#FFDA6565"/>
         <Label Grid.Row="2" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold" Content="из" Width="35" HorizontalAlignment="Left" Margin="95,20,0,0"/>
         <Label Grid.Row="2" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold" Name="FirstLabel" Width="auto" HorizontalAlignment="Left" Margin="55,20,0,0"/>
         <Label Grid.Row="2" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold" Name="SecondLabel" Width="auto" HorizontalAlignment="Left" Margin="135,20,0,0"/>
+        <Button Content="Закрыть&#xD;&#xA;" HorizontalAlignment="Left" Margin="706,0,0,0" VerticalAlignment="Top" Width="86" Height="22" Background="#FFDA6565" Click="Button_Click"/>
     </Grid>
 </Window>

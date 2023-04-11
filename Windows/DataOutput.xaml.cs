@@ -54,7 +54,7 @@ namespace FlowersCompany
                         }).ToList();
 
             ListViewData.Items.Clear();
-
+            //Работа с нумерацией страниц
             if (list.Count() - number < 15)
             {
                 count = list.Count();
@@ -125,6 +125,10 @@ namespace FlowersCompany
                 PagesView(PagesNumber);
             }
         }
-        
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Hide();
+        }
     }
 }

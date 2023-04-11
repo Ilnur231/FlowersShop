@@ -25,7 +25,7 @@ namespace FlowersCompany
         {
             InitializeComponent();
         }
-
+        //Связь с БД, назначение ссылок для авторизации
         private void SignInButton_Click(object sender, RoutedEventArgs e)
         {
             if (LoginTB.Text == "" || PasswordPB.Password == null)
@@ -52,11 +52,11 @@ namespace FlowersCompany
        }
     
 
-
+        //Код для закрытия программы
         private void CloseButton_Click(object sender, RoutedEventArgs e)
         {
             Hide();
             Close();
-        }
+    }
     }
 }

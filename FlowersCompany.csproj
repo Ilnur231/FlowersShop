@@ -110,10 +110,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FlowerShowModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="FlowerShowModel.Designer.cs">
+    <Compile Include="FlowerShopModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>FlowerShowModel.edmx</DependentUpon>
+      <DependentUpon>FlowerShopModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="AutorizationWindow.xaml.cs">
       <DependentUpon>AutorizationWindow.xaml</DependentUpon>
@@ -138,12 +138,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EntityDeploy Include="FlowerShowModel.edmx">
+    <EntityDeploy Include="FlowerShopModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>FlowerShowModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>FlowerShopModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="FlowerShowModel.edmx.diagram">
-      <DependentUpon>FlowerShowModel.edmx</DependentUpon>
+    <None Include="FlowerShopModel.edmx.diagram">
+      <DependentUpon>FlowerShopModel.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -173,12 +173,12 @@
   <ItemGroup>
     <Content Include="FlowerShowModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>FlowerShowModel.edmx</DependentUpon>
+      <DependentUpon>FlowerShopModel.edmx</DependentUpon>
       <LastGenOutput>FlowerShowModel.Context.cs</LastGenOutput>
     </Content>
     <Content Include="FlowerShowModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>FlowerShowModel.edmx</DependentUpon>
+      <DependentUpon>FlowerShopModel.edmx</DependentUpon>
       <LastGenOutput>FlowerShowModel.cs</LastGenOutput>
     </Content>
   </ItemGroup>
