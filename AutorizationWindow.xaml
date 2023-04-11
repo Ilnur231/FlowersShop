@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FlowersCompany"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="828" WindowStyle="None" AllowsTransparency="True" ResizeMode="CanResizeWithGrip" Background="{x:Null}">
+        Title="MainWindow" Height="450" Width="828" WindowStyle="None" AllowsTransparency="True" ResizeMode="NoResize" Background="{x:Null}">
     <Border CornerRadius="25" Background="White" BorderBrush="Gray" BorderThickness="0.3">
         <StackPanel Margin="7,-3,5,-26">
             <StackPanel Height="55" Width="928" Background="#FFDA6565">
